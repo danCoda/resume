@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,26 +11,26 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <a href="/" className="text-xl font-bold">
+            <Link href="/" className="text-xl font-bold">
               My Portfolio
-            </a>
+            </Link>
           </div>
           <div className="hidden md:flex space-x-4">
-            <a href="/" className="hover:text-gray-300">
+            <Link href="/" className="hover:text-gray-300">
               Home
-            </a>
-            <a href="/about" className="hover:text-gray-300">
+            </Link>
+            <Link href="/about" className="hover:text-gray-300">
               About
-            </a>
-            <a href="/resume" className="hover:text-gray-300">
+            </Link>
+            <Link href="/resume" className="hover:text-gray-300">
               Resume
-            </a>
-            <a href="/projects" className="hover:text-gray-300">
+            </Link>
+            <Link href="/projects" className="hover:text-gray-300">
               Projects
-            </a>
-            <a href="/contact" className="hover:text-gray-300">
+            </Link>
+            <Link href="/contact" className="hover:text-gray-300">
               Contact
-            </a>
+            </Link>
           </div>
           <div className="md:hidden">
             <button
@@ -66,21 +67,21 @@ export default function Navbar() {
         }`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a href="/" className="block hover:bg-gray-700 px-3 py-2 rounded">
+          <Link href="/" className="block hover:bg-gray-700 px-3 py-2 rounded">
             Home
-          </a>
-          <a href="/about" className="block hover:bg-gray-700 px-3 py-2 rounded">
+          </Link>
+          <Link href="/about" className="block hover:bg-gray-700 px-3 py-2 rounded">
             About
-          </a>
-          <a href="/resume" className="block hover:bg-gray-700 px-3 py-2 rounded">
+          </Link>
+          <Link href="/resume" className="block hover:bg-gray-700 px-3 py-2 rounded">
             Resume
-          </a>
-          <a href="/projects" className="block hover:bg-gray-700 px-3 py-2 rounded">
+          </Link>
+          <Link href="/projects" className="block hover:bg-gray-700 px-3 py-2 rounded">
             Projects
-          </a>
-          <a href="/contact" className="block hover:bg-gray-700 px-3 py-2 rounded">
+          </Link>
+          <Link href="/contact" className="block hover:bg-gray-700 px-3 py-2 rounded">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
