@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Merriweather } from "next/font/google";
+import { Merriweather } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 
