@@ -39,7 +39,7 @@ export default function Navbar() {
             >
               <svg
                 className={`h-6 w-6 transform transition-transform duration-300 ${
-                  isMenuOpen ? "rotate-45" : "rotate-0"
+                  isMenuOpen ? "rotate-90" : "rotate-0"
                 }`}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Merriweather } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
+import { metadataCopyText } from "./constants";
 
 const merriweather = Merriweather({
   weight: "400",
@@ -9,11 +10,7 @@ const merriweather = Merriweather({
 });
 
 export const metadata: Metadata = {
-  title: {
-    template: "%s | DS Resume",
-    default: "DS Resume",
-  },
-  description: "Full-stack web developer in Sydney",
+  ...metadataCopyText.rootLayout,
 };
 
 export default function RootLayout({
