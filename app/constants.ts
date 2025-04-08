@@ -1,3 +1,5 @@
+import { NavbarLinkProps } from "./components/navbar-link";
+
 export const metadataCopyText = {
   rootLayout: {
     title: {
@@ -7,3 +9,26 @@ export const metadataCopyText = {
     description: "Full-stack web developer in Sydney",
   },
 };
+
+export const navbarLinks: Array<NavbarLinkProps> = [
+  {
+    title: "Home",
+    href: "/",
+  },
+  {
+    title: "About",
+    href: "/about",
+  },
+  {
+    title: "Resume",
+    href: "/resume",
+  },
+  {
+    title: "Projects",
+    href: "/projects",
+  },
+  {
+    title: "Contact",
+    href: "/contact",
+  },
+];
