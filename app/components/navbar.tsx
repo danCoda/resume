@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { NavbarMobileMenu } from "./navbar-mobile-menu";
-import { Hamburger } from "../ui/hamburger";
+import { Hamburger } from "./hamburger";
 import { NavbarDesktopMenu } from "./navbar-desktop-menu";
 
 export default function Navbar() {
@@ -19,7 +19,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-xl font-bold">
-              My Portfolio
+              Dan Son | Web Developer
             </Link>
           </div>
           <NavbarDesktopMenu className="hidden md:flex" />
