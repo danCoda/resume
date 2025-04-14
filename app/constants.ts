@@ -72,7 +72,7 @@ export const companiesCopyText: Array<Company> = [
   {
     name: "TCS",
     logo: "/companies/logos/tcs.avif",
-    info: "Global IT consulting company, part of NTT Group.",
+    info: "Global IT consulting company, part of NTT Group",
     role: "NodeJS API Developer",
     period: "Apr 2021 - Aug 2021",
     link: "https://www.tcs.com/who-we-are/worldwide/anz",
@@ -84,7 +84,7 @@ export const companiesCopyText: Array<Company> = [
   {
     name: "GES",
     logo: "/companies/logos/ges.avif",
-    info: "Casino software solutions startup",
+    info: "Casino software solutions",
     role: "Software Developer",
     period: "Apr 2019 - Apr 2021",
     link: "https://www.gentsys.com/multibet",
