@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { NavbarMobileMenu } from "./navbar-mobile-menu";
-import { Hamburger } from "../ui/hamburger";
+import { Hamburger } from "./hamburger";
 import { NavbarDesktopMenu } from "./navbar-desktop-menu";
 
 export default function Navbar() {
