@@ -1,16 +1,7 @@
 import Link from "next/link";
+import { Company } from "../types";
 
-export const ExperienceDescription = ({
-  company,
-}: {
-  company: {
-    link: string;
-    name: string;
-    role: string;
-    period: string;
-    description: Array<string>;
-  };
-}) => {
+export const ExperienceDescription = ({ company }: { company: Company }) => {
   return (
     <>
       <h2 className="text-2xl font-semibold">
