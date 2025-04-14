@@ -24,8 +24,8 @@ export const navbarLinks: Array<NavbarLinkProps> = [
     href: "/resume",
   },
   {
-    title: "Projects",
-    href: "/projects",
+    title: "Experience",
+    href: "/experience",
   },
   {
     title: "Contact",

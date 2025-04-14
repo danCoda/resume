@@ -33,7 +33,7 @@ const Page = () => {
                 />
               </div>
               <div className="text-center md:text-left">
-                <Link href={`/projects#${company.name.toLowerCase()}`} className="hover:text-blue-600">
+                <Link href={`/experience#${company.name.toLowerCase()}`} className="hover:text-blue-600">
                   <h3 className="font-semibold text-lg">{company.name}</h3>
                 </Link>
                 <p className="text-gray-600 text-sm">{company.info}</p>
