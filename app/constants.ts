@@ -37,7 +37,10 @@ export const companiesCopyText: Array<Company> = [
     info: "Leading Telecommunications company in Australia",
     role: "Full-stack Developer (contractor)",
     period: "Dec 2022 - Dec 2024",
-    link: "https://subhub.optus.com.au/",
+    cta: {
+      href: "https://subhub.optus.com.au/",
+      target: "_blank",
+    },
     description: [
       "Worked on SubHub, a subscription management web application for everyday Australians.",
       "Translated Figma wireframes into usable products using Next.js, Node.js, and AWS.",
@@ -52,7 +55,11 @@ export const companiesCopyText: Array<Company> = [
     info: "Australian non-bank lender and financial wellness platform",
     role: "Web Developer",
     period: "Aug 2021 - Aug 2022",
-    link: "https://wisr.com.au/",
+    cta: {
+      
+      href: "https://wisr.com.au/",
+      target: "_blank",
+    },
     description: [
       "Worked on various BAU tasks on Liger, which is an internal CRM application.",
       "Liger was developed with maintability and UX in mind, to replace the hastly developed ASP.NET MVC application.",
@@ -67,7 +74,10 @@ export const companiesCopyText: Array<Company> = [
     info: "Global IT consulting company, part of NTT Group",
     role: "NodeJS API Developer",
     period: "Apr 2021 - Aug 2021",
-    link: "https://www.tcs.com/who-we-are/worldwide/anz",
+    cta: {
+      href: "https://www.tcs.com/who-we-are/worldwide/anz",
+      target: "_blank",
+    },
     description: [
       "Essentially a front-end role creating forms using ReactJS for a bank.",
       "NOTE: Short tenure. I realized early on that the my working style and the company’s work culture did not align. I chose to step away and find a better suited opportunity.",
@@ -79,24 +89,31 @@ export const companiesCopyText: Array<Company> = [
     info: "Casino software solutions",
     role: "Software Developer",
     period: "Apr 2019 - Apr 2021",
-    link: "https://www.gentsys.com/multibet",
+    cta: {
+      href: "https://www.gentsys.com/multibet",
+      target: "_blank",
+    },
     description: [
-      "Developed the front-end of the MultiBet suite roulette games, and related content.",
-      "Built Chrome Apps and Extensions for casino systems.",
-      "Created mobile and large screen result displays.",
+      "Developed the front-end of the MultiBet suite of roulette games with jQuery.",
+      "Worked closely within a small start-up environment.",
+      "Created mobile and large screen web applcation for game result displays.",
+      "Also build Chrome Apps and Extensions for casino systems.",
     ],
   },
   {
     name: "Dimension Data",
     logo: "/companies/logos/dd.avif",
     info: "Global IT services provider",
-    role: "Associate Network Engineer, then Project Coordinator",
+    role: "CCNA Associate Network Engineer, then Project Coordinator",
     period: "Apr 2015 - Nov 2019",
-    link: "https://services.global.ntt/en-us/",
+    cta: {
+      href: "https://services.global.ntt/en-us/",
+      target: "_blank",
+    },
     description: [
       "Managed multiple projects for various clients.",
-      "Projects included updating server software and hardware, and racking and stacking.",
-      "Handled client communication and expectatiopns, team management, planning and budget forecasting.",
+      "Projects included updating server software and hardware, racking and stacking and more.",
+      "Handled client communication and expectatiopns, team management, and admin work including forecasting and project budget.",
       "Coordinated with teams and clients to ensure smooth delivery and handoff.",
     ],
   },
@@ -106,9 +123,13 @@ export const companiesCopyText: Array<Company> = [
     info: "Building energy consumption monitoring company, part of Stowe Australia",
     role: "Graduate Web Developer",
     period: "Mar 2013 - Mar 2015",
-    link: "https://eco-view.com.au/",
+    cta: {
+      href: "https://eco-view.com.au/",
+      target: "_blank",
+    },
     description: [
-      "Built various features for the Ecoview web application using AngularJS and ASP.NET MVC.",
+      "The Ecoview platform was a web application used for tracking energy consumption used by building managers.",
+      "Built various features using AngularJS and ASP.NET MVC.",
     ],
   },
 ];
@@ -135,9 +156,12 @@ export const homepageCopyText = {
   experienceTitle: "Companies I've worked with",
   callToDeveloper: {
     title: "Looking for a developer?",
-    cta: {
+    link: {
       title: "Contact me",
-      link: LINKEDIN_LINK,
+      cta: {
+        href: LINKEDIN_LINK,
+        target: "_blank",
+      },
     },
   },
 };

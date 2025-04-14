@@ -11,32 +11,25 @@ const CompaniesList = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {companiesCopyText.map((company, index) => (
-          <div
+          <Link
             key={index}
-            className="flex flex-col justify-center items-center gap-4 p-4 border rounded-lg shadow-sm"
+            href={`/experience#${company.name.toLowerCase()}`}
+            className="bg-white group hover:scale-105 hover:shadow-xl/20 transition flex flex-col justify-center items-center gap-4 p-4 border rounded-lg shadow-sm"
           >
             <div className="w-40 h-24 relative">
               <Image
                 src={company.logo}
                 alt={`${company.name} logo`}
                 fill
-                className="object-contain rounded-xl"
+                className="object-contain rounded-xl transition group-hover:scale-110"
               />
             </div>
             <div className="text-center md:text-left">
-              <Link
-                href={`/experience#${company.name.toLowerCase()}`}
-                className="hover:text-blue-600"
-              >
-                <h3 className="font-semibold text-lg text-center">
-                  {company.name}
-                </h3>
-              </Link>
               <p className="text-gray-600 text-sm text-center">
                 {company.info}
               </p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </>
@@ -57,15 +50,15 @@ const Page = () => {
         <CompaniesList />
       </section>
 
-      <section className="border-t pt-6">
+      <section className="border-t pt-6 mb-32">
         <h2 className="text-2xl font-semibold mb-3">
           {homepageCopyText.callToDeveloper.title}
         </h2>
         <Link
-          href={homepageCopyText.callToDeveloper.cta.link}
           className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition-colors"
+          {...homepageCopyText.callToDeveloper.link.cta}
         >
-          {homepageCopyText.callToDeveloper.cta.title}
+          {homepageCopyText.callToDeveloper.link.title}
         </Link>
       </section>
     </main>

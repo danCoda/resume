@@ -18,10 +18,10 @@ const Page = () => {
           <div
             key={index}
             id={company.name.toLowerCase()}
-            className="grid grid-cols-1 md:grid-cols-3 md:gap-8 p-6 border rounded-lg shadow-md bg-white scroll-mt-24"
+            className="hover:scale-102 hover:shadow-lg/20 transition grid grid-cols-1 md:grid-cols-3 md:gap-8 p-6 border rounded-lg shadow-md bg-white scroll-mt-24"
           >
             <div className={`flex items-center p-4 justify-center`}>
-              <Link href={company.link}>
+              <Link {...company.cta} tabIndex={-1}>
                 <Image
                   src={company.logo}
                   alt={`${company.name} logo`}

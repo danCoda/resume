@@ -15,14 +15,12 @@ export default function Navbar() {
   };
 
   return (
-    <div className="sticky top-0 z-50 w-full bg-gray-800 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className={`fixed top-0 w-full bg-gray-800 text-white z-10`}>
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <Link href="/" className="text-xl font-bold">
-              {navTitle}
-            </Link>
-          </div>
+          <Link href="/" className="text-xl font-bold">
+            {navTitle}
+          </Link>
           <NavbarDesktopMenu className="hidden md:flex" />
           <Hamburger
             isMenuOpen={isMenuOpen}

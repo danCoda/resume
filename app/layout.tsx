@@ -3,7 +3,7 @@ import { Merriweather } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import { metadataCopyText } from "./constants";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
 const merriweather = Merriweather({
   weight: "400",
@@ -19,13 +19,19 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const mainContentBackgroundClasses = `bg-gradient-to-b from-white via-80% via-white to-transparent to-95%`;
+
   return (
     <html lang="en">
-      <body className={`${merriweather.className} antialiased`}>
+      <body
+        className={`${merriweather.className} antialiased bg-gradient-to-b from-slate-300 to-sky-900 h-full`}
+      >
         <Analytics />
         <Navbar />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <main className="mt-8 px-4 sm:px-6 lg:px-8">{children}</main>
+        <div
+          className={`max-w-5xl mx-auto min-h-screen ${mainContentBackgroundClasses}`}
+        >
+          <main className="pt-20 px-4 sm:px-6 lg:px-8">{children}</main>
         </div>
       </body>
     </html>
