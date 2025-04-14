@@ -32,6 +32,10 @@ export const navbarLinks: Array<NavbarLinkProps> = [
     title: "Contact",
     href: "/contact",
   }, */
+  {
+    title: "LinkedIn",
+    href: "https://www.linkedin.com/in/danielsurfy/"
+  }
 ];
 
 export const companiesCopyText: Array<Company> = [
