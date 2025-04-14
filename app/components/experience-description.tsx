@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Company } from "../types";
+import { Company } from "@/app/types";
 
 export const ExperienceDescription = ({ company }: { company: Company }) => {
   return (

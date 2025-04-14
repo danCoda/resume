@@ -1,5 +1,5 @@
-import { NavbarLinkProps } from "./components/navbar-link";
-import { Company } from "./types";
+import { NavbarLinkProps } from "@/app/components/navbar-link";
+import { Company } from "@/app/types";
 
 export const navTitle = "Sydney Web Developer - Dan 🤠";
 
@@ -56,7 +56,6 @@ export const companiesCopyText: Array<Company> = [
     role: "Web Developer",
     period: "Aug 2021 - Aug 2022",
     cta: {
-      
       href: "https://wisr.com.au/",
       target: "_blank",
     },

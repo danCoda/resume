@@ -1,5 +1,5 @@
-import { navbarLinks } from "../constants";
-import { NavbarLink } from "./navbar-link";
+import { navbarLinks } from "@/app/constants";
+import { NavbarLink } from "@/app/components/navbar-link";
 
 type NavbarMobileMenuProps = Pick<
   React.HTMLAttributes<HTMLDivElement>,

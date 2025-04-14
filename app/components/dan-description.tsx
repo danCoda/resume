@@ -4,8 +4,8 @@ import { useState } from "react";
 import {
   danDescriptionStyleLabelCopyText,
   homepageCopyText,
-} from "../constants";
-import { Switch } from "@/components/ui/switch";
+} from "@/app/constants";
+import { Switch } from "@/app/components/ui/switch";
 
 export const DanDescription = () => {
   const [isPassionate, setIsPassionate] = useState(true);

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { companiesCopyText, homepageCopyText } from "./constants";
-import { DanDescription } from "./components/dan-description";
+import { companiesCopyText, homepageCopyText } from "@/app/constants";
+import { DanDescription } from "@/app/components/dan-description";
 
 const CompaniesList = () => {
   return (

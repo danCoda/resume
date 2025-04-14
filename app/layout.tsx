@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Merriweather } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/navbar";
-import { metadataCopyText } from "./constants";
+import Navbar from "@/app/components/navbar";
+import { metadataCopyText } from "@/app/constants";
 import { Analytics } from "@vercel/analytics/react";
 
 const merriweather = Merriweather({

@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { NavbarMobileMenu } from "./navbar-mobile-menu";
-import { Hamburger } from "./hamburger";
-import { NavbarDesktopMenu } from "./navbar-desktop-menu";
-import { navTitle } from "../constants";
+import { NavbarMobileMenu } from "@/app/components/navbar-mobile-menu";
+import { Hamburger } from "@/app/components/hamburger";
+import { NavbarDesktopMenu } from "@/app/components/navbar-desktop-menu";
+import { navTitle } from "@/app/constants";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

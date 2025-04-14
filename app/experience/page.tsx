@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 import React from "react";
 import Image from "next/image";
-import { companiesCopyText, experienceCopyText } from "../constants";
+import { companiesCopyText, experienceCopyText } from "@/app/constants";
 import Link from "next/link";
-import { ExperienceDescription } from "../components/experience-description";
+import { ExperienceDescription } from "@/app/components/experience-description";
 
 export const metadata: Metadata = {
   title: "Projects",
