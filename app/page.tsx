@@ -58,7 +58,7 @@ const Page = () => {
           Looking for a developer?
         </h2>
         <Link
-          href="/contact"
+          href="https://www.linkedin.com/in/danielsurfy/"
           className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition-colors"
         >
           Contact me
