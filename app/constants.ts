@@ -1,13 +1,13 @@
 import { NavbarLinkProps } from "./components/navbar-link";
 import { Company } from "./types";
 
-export const navTitle = "Dan Son | Web Developer";
+export const navTitle = "Sydney Web Developer - Dan 🤠";
 
 export const metadataCopyText = {
   rootLayout: {
     title: {
-      template: "%s | DS Sydney Developer",
-      default: "DS Sydney Developer",
+      template: "%s | Sydney Developer | Dan Son",
+      default: "Sydney Developer | Dan Son",
     },
     description: "Full-stack web developer in Sydney",
   },
