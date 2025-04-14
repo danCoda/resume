@@ -1,5 +1,5 @@
 import { navbarLinks } from "../constants";
-import NavbarLink from "./navbar-link";
+import { NavbarLink } from "./navbar-link";
 
 type NavbarDesktopMenuProps = Pick<
   React.HTMLAttributes<HTMLDivElement>,

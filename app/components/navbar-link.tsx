@@ -5,8 +5,6 @@ export type NavbarLinkProps = LinkProps &
     title: string;
   };
 
-const NavbarLink = ({ title, ...rest }: NavbarLinkProps) => {
+export const NavbarLink = ({ title, ...rest }: NavbarLinkProps) => {
   return <Link {...rest}>{title}</Link>;
 };
-
-export default NavbarLink;
