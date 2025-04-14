@@ -1,6 +1,8 @@
 import { NavbarLinkProps } from "./components/navbar-link";
 import { Company } from "./types";
 
+export const navTitle = "Dan Son | Web Developer";
+
 export const metadataCopyText = {
   rootLayout: {
     title: {
@@ -11,31 +13,21 @@ export const metadataCopyText = {
   },
 };
 
+const LINKEDIN_LINK = "https://www.linkedin.com/in/danielsurfy/";
+
 export const navbarLinks: Array<NavbarLinkProps> = [
   {
     title: "Home",
     href: "/",
   },
-  /*   {
-    title: "About",
-    href: "/about",
-  },
-  {
-    title: "Resume",
-    href: "/resume",
-  }, */
   {
     title: "Experience",
     href: "/experience",
   },
-  /*   {
-    title: "Contact",
-    href: "/contact",
-  }, */
   {
     title: "LinkedIn",
-    href: "https://www.linkedin.com/in/danielsurfy/"
-  }
+    href: LINKEDIN_LINK,
+  },
 ];
 
 export const companiesCopyText: Array<Company> = [
@@ -140,9 +132,21 @@ export const homepageCopyText = {
       "Let's work together to bring your web projects to life!",
     ],
   },
+  experienceTitle: "Companies I've worked with",
+  callToDeveloper: {
+    title: "Looking for a developer?",
+    cta: {
+      title: "Contact me",
+      link: LINKEDIN_LINK,
+    },
+  },
 };
 
 export const danDescriptionStyleLabelCopyText = {
   showPassion: "Show some passion?",
-  relax: "Whoa chill out dude!"
-}
+  relax: "Whoa chill out dude!",
+};
+
+export const experienceCopyText = {
+  title: "Professional Experience",
+};

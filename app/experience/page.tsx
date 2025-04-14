@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import React from "react";
 import Image from "next/image";
-import { companiesCopyText } from "../constants";
+import { companiesCopyText, experienceCopyText } from "../constants";
 import Link from "next/link";
 import { ExperienceDescription } from "../components/experience-description";
 
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const Page = () => {
   return (
     <div className="max-w-7xl mx-auto py-8">
-      <h1 className="text-4xl font-bold mb-8">Professional Experience</h1>
+      <h1 className="text-4xl font-bold mb-8">{experienceCopyText.title}</h1>
       <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
         {companiesCopyText.map((company, index) => (
           <div

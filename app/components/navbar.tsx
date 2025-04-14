@@ -5,6 +5,7 @@ import Link from "next/link";
 import { NavbarMobileMenu } from "./navbar-mobile-menu";
 import { Hamburger } from "./hamburger";
 import { NavbarDesktopMenu } from "./navbar-desktop-menu";
+import { navTitle } from "../constants";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +20,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-xl font-bold">
-              Dan Son | Web Developer
+              {navTitle}
             </Link>
           </div>
           <NavbarDesktopMenu className="hidden md:flex" />

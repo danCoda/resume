@@ -7,7 +7,7 @@ const CompaniesList = () => {
   return (
     <>
       <h2 className="text-2xl font-semibold">
-        Companies I&apos;ve Worked With
+        {homepageCopyText.experienceTitle}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {companiesCopyText.map((company, index) => (
@@ -28,9 +28,13 @@ const CompaniesList = () => {
                 href={`/experience#${company.name.toLowerCase()}`}
                 className="hover:text-blue-600"
               >
-                <h3 className="font-semibold text-lg text-center">{company.name}</h3>
+                <h3 className="font-semibold text-lg text-center">
+                  {company.name}
+                </h3>
               </Link>
-              <p className="text-gray-600 text-sm text-center">{company.info}</p>
+              <p className="text-gray-600 text-sm text-center">
+                {company.info}
+              </p>
             </div>
           </div>
         ))}
@@ -55,13 +59,13 @@ const Page = () => {
 
       <section className="border-t pt-6">
         <h2 className="text-2xl font-semibold mb-3">
-          Looking for a developer?
+          {homepageCopyText.callToDeveloper.title}
         </h2>
         <Link
-          href="https://www.linkedin.com/in/danielsurfy/"
+          href={homepageCopyText.callToDeveloper.cta.link}
           className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition-colors"
         >
-          Contact me
+          {homepageCopyText.callToDeveloper.cta.title}
         </Link>
       </section>
     </main>
