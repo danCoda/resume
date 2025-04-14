@@ -116,3 +116,29 @@ export const companiesCopyText: Array<Company> = [
     ],
   },
 ];
+
+export const homepageCopyText = {
+  title: "Hi there!",
+  subtitle: "I'm Dan, and welcome to my new website (work in progress...)",
+  description: {
+    default: [
+      `I'm a web developer in Sydney.`,
+      `I'm more experienced on the front-end, and can do full-stack as well.`,
+      `I can work with you and your team to make your websites and web applications.`,
+      `Yes, I'm an Aussie citizen.`,
+      `I've had the privilege working with amazing companies.`,
+    ],
+    passionate: [
+      "I'm a passionate web developer based in Sydney, Australia.",
+      "I have good experience building modern web applications, and can bring mockups to usable products.",
+      "I've collaborated with amazing companies and bring a wealth of experience in both front-end development and full-stack solutions. But mostly front-end for now.",
+      "I pride myself on writing clean, maintainable code and achieving awesome results together.",
+      "Let's work together to bring your web projects to life!",
+    ],
+  },
+};
+
+export const danDescriptionStyleLabelCopyText = {
+  showPassion: "Show some passion?",
+  relax: "Whoa chill out dude!"
+}

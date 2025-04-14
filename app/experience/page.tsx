@@ -11,14 +11,14 @@ export const metadata: Metadata = {
 
 const Page = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-7xl mx-auto py-8">
       <h1 className="text-4xl font-bold mb-8">Professional Experience</h1>
       <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
         {companiesCopyText.map((company, index) => (
           <div
             key={index}
             id={company.name.toLowerCase()}
-            className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6 border rounded-lg shadow-md bg-white scroll-mt-24"
+            className="grid grid-cols-1 md:grid-cols-3 md:gap-8 p-6 border rounded-lg shadow-md bg-white scroll-mt-24"
           >
             <div className={`flex items-center p-4 justify-center`}>
               <Link href={company.link}>
