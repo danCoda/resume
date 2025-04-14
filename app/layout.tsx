@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={`${merriweather.className} antialiased`}>
         <Navbar />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <main className="mt-16 px-4 sm:px-6 lg:px-8">{children}</main>
+          <main className="mt-8 px-4 sm:px-6 lg:px-8">{children}</main>
         </div>
       </body>
     </html>
