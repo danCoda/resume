@@ -1,16 +1,21 @@
 import { NavbarLinkProps } from "@/app/components/navbar-link";
 import { Company } from "@/app/types";
+import { Metadata } from "next";
 
-export const navTitle = "Web Devo Dan 🤠";
+const SITE_NAME = "Web Devo Dan";
+
+export const navTitle = `${SITE_NAME} 🤠`;
 
 export const metadataCopyText = {
   rootLayout: {
     title: {
-      template: "%s | Web Devo Dan",
-      default: "Web Devo Dan",
+      template: `%s | ${SITE_NAME}`,
+      default: SITE_NAME,
     },
+    url: process.env.SITE_URL,
     description: "Australian Web Developer",
-  },
+    siteName: SITE_NAME,
+  } as Metadata,
 };
 
 const LINKEDIN_LINK = "https://www.linkedin.com/in/danielsurfy/";
