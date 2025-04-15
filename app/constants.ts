@@ -1,15 +1,15 @@
 import { NavbarLinkProps } from "@/app/components/navbar-link";
 import { Company } from "@/app/types";
 
-export const navTitle = "Sydney Web Developer - Dan 🤠";
+export const navTitle = "Web Devo Dan 🤠";
 
 export const metadataCopyText = {
   rootLayout: {
     title: {
-      template: "%s | Sydney Developer | Dan Son",
-      default: "Sydney Developer | Dan Son",
+      template: "%s | Web Devo Dan",
+      default: "Web Devo Dan",
     },
-    description: "Full-stack web developer in Sydney",
+    description: "Australian Web Developer",
   },
 };
 
@@ -141,12 +141,12 @@ export const homepageCopyText = {
       `I'm a web developer in Sydney.`,
       `I'm more experienced on the front-end, and can do full-stack as well.`,
       `I can work with you and your team to make your websites and web applications.`,
-      `Yes, I'm an Aussie citizen.`,
+      `Why yes, I am an Aussie citizen.`,
       `I've had the privilege working with amazing companies.`,
     ],
     passionate: [
       "I'm a passionate web developer based in Sydney, Australia.",
-      "I have good experience building modern web applications, and can bring mockups to usable products.",
+      "I have exceptional experience building modern web applications, and can bring mockups to usable products.",
       "I've collaborated with amazing companies and bring a wealth of experience in both front-end development and full-stack solutions. But mostly front-end for now.",
       "I pride myself on writing clean, maintainable code and achieving awesome results together.",
       "Let's work together to bring your web projects to life!",
@@ -166,7 +166,7 @@ export const homepageCopyText = {
 };
 
 export const danDescriptionStyleLabelCopyText = {
-  showPassion: "Show some passion?",
+  showPassion: "A bit more passion?",
   relax: "Whoa chill out dude!",
 };
 
