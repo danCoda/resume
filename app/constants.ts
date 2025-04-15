@@ -1,5 +1,4 @@
-import { NavbarLinkProps } from "@/app/components/navbar-link";
-import { Company } from "@/app/types";
+import { Company, NavbarLinkProps } from "@/app/types";
 import { Metadata } from "next";
 
 const SITE_NAME = "Web Devo Dan";
@@ -32,6 +31,7 @@ export const navbarLinks: Array<NavbarLinkProps> = [
   {
     title: "LinkedIn",
     href: LINKEDIN_LINK,
+    target: "_blank",
   },
 ];
 
