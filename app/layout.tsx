@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/app/components/navbar";
 import { metadataCopyText } from "@/app/constants";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const merriweather = Merriweather({
   weight: "400",
@@ -27,6 +28,7 @@ export default function RootLayout({
         className={`${merriweather.className} antialiased bg-gradient-to-b from-slate-300 to-sky-900 h-full`}
       >
         <Analytics />
+        <SpeedInsights />
         <Navbar />
         <div
           className={`max-w-5xl mx-auto min-h-screen ${mainContentBackgroundClasses}`}
