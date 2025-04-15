@@ -6,7 +6,7 @@ import Link from "next/link";
 import { ExperienceDescription } from "@/app/components/experience-description";
 
 export const metadata: Metadata = {
-  title: "Projects",
+  title: "Experience",
 };
 
 const Page = () => {

@@ -27,14 +27,14 @@ export default function RootLayout({
       <body
         className={`${merriweather.className} antialiased bg-gradient-to-b from-slate-300 to-sky-900 h-full`}
       >
-        <Analytics />
-        <SpeedInsights />
         <Navbar />
         <div
           className={`max-w-5xl mx-auto min-h-screen ${mainContentBackgroundClasses}`}
         >
           <main className="pt-20 px-4 sm:px-6 lg:px-8">{children}</main>
         </div>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
