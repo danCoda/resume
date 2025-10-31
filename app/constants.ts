@@ -54,7 +54,7 @@ export const companiesCopyText: Array<Company> = [
   },
   {
     name: "Optus",
-    logo: "/companies/logos/optus.avif",
+    logo: "/companies/logos/optus.png",
     info: "Leading Telecommunications company in Australia",
     role: "Full-stack Developer (contractor)",
     period: "Dec 2022 - Dec 2024",
