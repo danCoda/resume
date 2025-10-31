@@ -36,6 +36,22 @@ export const navbarLinks: Array<NavbarLinkProps> = [
 ];
 
 export const companiesCopyText: Array<Company> = [
+    {
+    name: "Thoughtworks",
+    logo: "/companies/logos/tw.svg",
+    info: "IT consultancy leaders",
+    role: "Consultant",
+    period: "May 2025 - Oct 2025",
+    cta: {
+      href: "https://www.thoughtworks.com/en-au/what-we-do",
+      target: "_blank",
+    },
+    description: [
+      "Worked in a fast-paced fintech startup client with limited engineering practices; adapted quickly and delivered features with positive feedback.",
+      "Took on semi-leadership position in an internal initiative, leveraging AI-First Software Delivery (AIFSD) and AWS to automate onboarding emails with AWS AI technology; reduce staffing workload and improve communication.",
+      "Presented the initiative outcome, planning, and insights to a wider company audience.",
+    ],
+  },
   {
     name: "Optus",
     logo: "/companies/logos/optus.avif",
@@ -57,7 +73,7 @@ export const companiesCopyText: Array<Company> = [
   {
     name: "Wisr",
     logo: "/companies/logos/wisr.avif",
-    info: "Australian non-bank lender and financial wellness platform",
+    info: "Australian fintech non-bank lender and financial wellness platform",
     role: "Web Developer",
     period: "Aug 2021 - Aug 2022",
     cta: {
@@ -75,7 +91,7 @@ export const companiesCopyText: Array<Company> = [
   {
     name: "TCS",
     logo: "/companies/logos/tcs.avif",
-    info: "Global IT consulting company, part of NTT Group",
+    info: "Global IT consulting company",
     role: "NodeJS API Developer",
     period: "Apr 2021 - Aug 2021",
     cta: {
@@ -107,7 +123,7 @@ export const companiesCopyText: Array<Company> = [
   {
     name: "Dimension Data",
     logo: "/companies/logos/dd.avif",
-    info: "Global IT services provider",
+    info: "Global IT services provider, part of NTT",
     role: "CCNA Associate Network Engineer, then Project Coordinator",
     period: "Apr 2015 - Nov 2019",
     cta: {
@@ -124,7 +140,7 @@ export const companiesCopyText: Array<Company> = [
   {
     name: "Ecoview",
     logo: "/companies/logos/ecoview.avif",
-    info: "Building energy consumption monitoring company, part of Stowe Australia",
+    info: "Energy consumption monitoring solutions for buildings, part of Stowe Australia",
     role: "Graduate Web Developer",
     period: "Mar 2013 - Mar 2015",
     cta: {
