@@ -23,14 +23,14 @@ export const DanDescription = () => {
     <section className="space-y-3">
       <div className="flex justify-end items-center">
         <h2 className="text-xl font-semibold sr-only">About Me</h2>
-        <label className={`cursor-pointer flex items-center text-blue-800`}>
+        {/* <label className={`cursor-pointer flex items-center text-blue-800`}>
           <Switch checked={isPassionate} onCheckedChange={toggleType} />
           <span className="pl-3 italic">
             {isPassionate
               ? danDescriptionStyleLabelCopyText.relax
               : danDescriptionStyleLabelCopyText.showPassion}
           </span>
-        </label>
+        </label> */}
       </div>
       <div
         className={`space-y-3 transition-all duration-300 ${
@@ -38,7 +38,8 @@ export const DanDescription = () => {
         }`}
       >
         {homepageCopyText.description[
-          isPassionate ? "passionate" : "default"
+          // isPassionate ? "passionate" : "default"
+          "default"
         ].map((line, i) => (
           <p key={i}>{line}</p>
         ))}

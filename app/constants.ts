@@ -161,9 +161,11 @@ export const homepageCopyText = {
     default: [
       `I'm a web developer in Sydney.`,
       `I'm more experienced on the front-end, and can do full-stack as well.`,
+      `React, TypeScript, Node.JS, AWS, AI...`,
       `I can work with you and your team to make your websites and web applications.`,
-      `Why yes, I am an Aussie citizen.`,
-      `I've had the privilege working with amazing companies.`,
+      `I am an Aussie citizen.`,
+      `I've had the privilege working with amazing companies and people.`,
+      `I value strong relationships, collaboration, and a culture of learning over individual briliance.`,
     ],
     passionate: [
       "I'm a passionate web developer based in Sydney, Australia.",
